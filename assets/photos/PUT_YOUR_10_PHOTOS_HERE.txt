@@ -1,0 +1,1 @@
+Replace photo1.jpg through photo10.jpg with your own photos. Keep the filenames exactly the same.
