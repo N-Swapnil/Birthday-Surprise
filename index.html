@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>For My Butuu ❤️</title>
+  <meta name="description" content="A little birthday surprise for Anjali — my Butuu.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="opening" class="opening-screen" aria-label="Birthday surprise opening">
+    <div class="opening-panda">🐼</div>
+    <div class="opening-heart">❤️</div>
+    <div class="opening-title">Butuu ❤️</div>
+    <div class="opening-subtitle">A little surprise made just for you...</div>
+    <div class="opening-dots"><span></span><span></span><span></span></div>
+  </div>
+
+  <canvas id="fireworks" aria-hidden="true"></canvas>
+  <div id="hearts"></div>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="panda panda-left">🐼</div>
+      <div class="panda panda-right">🐼</div>
+      <div class="hero-card">
+        <p class="eyebrow">A little surprise for my favorite person</p>
+        <h1>Happy Birthday,<br><span>Butuu ❤️</span></h1>
+        <p class="hero-sub">Anjali, this little corner of the internet is just for you.</p>
+        <button class="primary" onclick="startSurprise()">Open Your Surprise 🎁</button>
+        <p class="tiny">Made with love, memories & a little bit of panda magic 🐼</p>
+      </div>
+      <div class="scroll">↓ scroll for our little story ↓</div>
+    </section>
+
+    <section class="section intro reveal">
+      <div class="section-label">03 • 10 • 2023</div>
+      <h2>Three years of <span>us</span> ❤️</h2>
+      <p>
+        Three years ago, on 3rd October 2023, we officially chose each other.
+        Since then, life has given us so many little moments that became our big memories.
+      </p>
+    </section>
+
+    <section class="section story reveal">
+      <div class="story-grid">
+        <div>
+          <div class="section-label">Our journey</div>
+          <h2>We didn't just <span>love</span>…<br>we travelled too.</h2>
+          <p>
+            From temples and jyotirlingas to Goa, Ooty, Shirdi, Kashi, Mumbai,
+            Ganesh Ji and Vaishno Devi — every journey became more special because
+            you were beside me.
+          </p>
+          <p>
+            We explored Maharashtra, Madhya Pradesh and places far beyond,
+            collecting memories that I know I'll keep close forever.
+          </p>
+        </div>
+        <div class="map-card">
+          <div class="route">❤️ ─── ✈ ─── ❤️</div>
+          <div class="places">
+            <span>Goa</span><span>Ooty</span><span>Shirdi</span><span>Kashi</span>
+            <span>Mumbai</span><span>Jyotirlinga</span><span>Vaishno Devi</span>
+            <span>Ganesh Ji</span>
+          </div>
+          <div class="panda-big">🐼</div>
+          <p>Everywhere is better with you.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section timeline reveal">
+      <div class="section-label">Our little timeline</div>
+      <h2>Moments I want to <span>remember forever</span></h2>
+      <div class="timeline-list">
+        <article><b>03 Oct 2023</b><h3>The day we became “us” ❤️</h3><p>The beginning of a beautiful chapter.</p></article>
+        <article><b>Then came the journeys</b><h3>Temples, cities & long roads</h3><p>Every trip gave us another story to tell.</p></article>
+        <article><b>Three years later</b><h3>Still my favorite person 🐼</h3><p>And somehow, there are still so many memories left to make.</p></article>
+      </div>
+    </section>
+
+    <section class="section gallery reveal">
+      <div class="section-label">Our memories</div>
+      <h2>10 little pieces of <span>our story</span> 📸</h2>
+      <p class="muted">Replace the 10 image files in <code>assets/photos/</code> with your photos.</p>
+      <div class="photo-grid">
+        <div class="photo"><img src="assets/photos/photo1.jpg" alt="Our memory 1"><span>Memory 01 ❤️</span></div>
+        <div class="photo"><img src="assets/photos/photo2.jpg" alt="Our memory 2"><span>Memory 02 ❤️</span></div>
+        <div class="photo"><img src="assets/photos/photo3.jpg" alt="Our memory 3"><span>Memory 03 ❤️</span></div>
+        <div class="photo"><img src="assets/photos/photo4.jpg" alt="Our memory 4"><span>Memory 04 ❤️</span></div>
+        <div class="photo"><img src="assets/photos/photo5.jpg" alt="Our memory 5"><span>Memory 05 ❤️</span></div>
+        <div class="photo"><img src="assets/photos/photo6.jpg" alt="Our memory 6"><span>Memory 06 ❤️</span></div>
+        <div class="photo"><img src="assets/photos/photo7.jpg" alt="Our memory 7"><span>Memory 07 ❤️</span></div>
+        <div class="photo"><img src="assets/photos/photo8.jpg" alt="Our memory 8"><span>Memory 08 ❤️</span></div>
+        <div class="photo"><img src="assets/photos/photo9.jpg" alt="Our memory 9"><span>Memory 09 ❤️</span></div>
+        <div class="photo"><img src="assets/photos/photo10.jpg" alt="Our memory 10"><span>Memory 10 ❤️</span></div>
+      </div>
+    </section>
+
+    <section class="section reasons reveal">
+      <div class="section-label">A few reasons</div>
+      <h2>Why my heart says <span>“you”</span></h2>
+      <div class="reason-grid">
+        <div class="reason">Your smile 😊<small>It can change my entire day.</small></div>
+        <div class="reason">Your heart ❤️<small>You make ordinary moments feel special.</small></div>
+        <div class="reason">Your company 🐼<small>Even doing nothing feels like something with you.</small></div>
+        <div class="reason">Our madness 😂<small>The memories that only we understand.</small></div>
+      </div>
+    </section>
+
+    <section class="section letter reveal" id="letter">
+      <div class="envelope" onclick="openLetter()">
+        <div class="seal">❤️</div>
+        <p>Tap to open your letter</p>
+      </div>
+      <div id="letter-content" class="letter-content hidden">
+        <div class="section-label">From my heart</div>
+        <h2>For my Butuu 💌</h2>
+        <p>
+          Anjali, I know I can't express everything in front of you the way I feel it.
+          So I chose this little way to put some of those feelings into words.
+        </p>
+        <p>
+          These past three years have given me so much — the laughs, the journeys,
+          the temples, the random plans, the beautiful places and all those small
+          moments that became memories because we were together.
+        </p>
+        <p>
+          Today, on your birthday, I just want you to know how special you are to me.
+          And this isn't the end of our memories — it's only another page.
+        </p>
+        <p>
+          Once we meet, I promise I'll make your birthday even more memorable.
+          And for every birthday that comes after this, let's create new stories,
+          new journeys and many more memories together. ❤️
+        </p>
+        <p class="signature">Happy Birthday, my Butuu.<br>Always yours. ❤️</p>
+      </div>
+    </section>
+
+    <section class="final reveal" id="final-surprise">
+      <div class="final-firework-glow"></div>
+      <div class="panda-final">🐼</div>
+      <p class="eyebrow">One last thing…</p>
+      <h2>My favorite memories<br>haven't happened yet.</h2>
+      <p>Because there are still so many birthdays, journeys, silly moments and beautiful days waiting for us.</p>
+      <div class="final-line">Happy Birthday, Anjali ❤️</div>
+      <div class="final-line small">My Butuu 🐼</div>
+    </section>
+  </main>
+
+  <button id="music-toggle" class="music-toggle" type="button" aria-label="Toggle music">🎵 Music On</button>
+  <div id="music-note" class="music-note">🎵 Tap “Open Your Surprise” to start the romantic music.</div>
+  <script src="script.js"></script>
+</body>
+</html>
