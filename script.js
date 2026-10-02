@@ -117,7 +117,7 @@ function startFireworks(){
   for(let i=0;i<9;i++) setTimeout(()=>launchFirework(innerWidth*(.12+Math.random()*.76),innerHeight*(.12+Math.random()*.48)),i*420);
   const button=document.createElement('div');
   button.className='birthday-burst';
-  button.textContent='🎆 Happy Birthday, My Butuu! 🎂❤️';
+  button.textContent='.';
   final.appendChild(button);
   animateFireworks();
   burst();
